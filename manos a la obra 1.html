@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Manos a la obra 1</title>
+<head>
+    <link rel="stylesheet" href="manos a la obra 1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+</head>
+<body>
+    <h1 align="center">Florencia Maidana</h1>
+    <p>Soy Flor, tengo 37 años y vivo en <strong>Córdoba,</strong> Argentina. 
+        <br>Estoy casada con Dani y tenemos 3 hijos.
+    </p>
+
+<a href="imagen perfil.jpg"><img src="imagen perfil.jpg" alt="foto de perfil" width="150", height="200"></a>
+    <h1>Datos personales:</h1>   
+
+        <!-- Listas anidadas enumeradas ordenadas cambiando el tipo -->
+    
+        <p>Hijos: </p>
+<ol>
+    <li>Justiniano</li>  
+
+    <ul>
+        <li>13 años</li>
+        <li>primer año de secundario</li>
+        <li>colegio del carmen</li>
+    </ul>
+    <li>Manuel</li>
+    <ul>
+        <li>11 años</li>
+        <li>quinto grado</li>
+        <li>colegio del carmen</li>
+    </ul>
+    <li>Guadalupe</li>
+    <ul>
+        <li>9 años</li>
+        <li>cuarto grado</li>
+        <li>colegio del carmen</li>
+    </ul>
+
+</ol>
+   
+<br>
+<h1>Actualidad: </h1>
+         <!-- Listas sin orden con viñeta definida -->
+    <ul>
+            <li type="square">Trabajo organizando eventos</li>
+            <li type="square">Me gusta disfrutar la vida compartiendo con los mios</li>
+            <li type="square">estudio programacion en Egg</li>
+    </ul>
+          <!-- con otras viñetas -->
+<table>
+    <th>Apellido</th>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <tr>
+        <td>Gonzalez</td>
+        <td>Justiniano</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>Gonzalez</td>
+        <td>Manuel</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Gonzalez</td>
+        <td>Guadalupe</td>
+        <td>9</td>
+    </tr>
+</table>
+   
+<a href="https://www.linkedin.com/in/florenciamaidanadutari/"><img src="linkedin.jpg" alt="LinkedIn/flormaidana"></a>  
+<!--formulario-->
+<form action="ruta del método que va a manejar la información" method="POST"
+enctype="multipart/form-data"></form>
+
+ <label for="nombre">Nombre del usuario</label> <br>
+ <input type="text" name="nombre"> <br>
+
+ <label for="edad">Edad del usuario</label> <br>
+ <input type="number" name="edad "> <br>
+
+ <label for="fechanac">Fecha de nacimiento del usuario</label> <br>
+ <input type="date" name="fechanac"> <br>
+
+ <label for="sexo">Sexo del usuario</label> <br>
+ <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+ <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+
+ <label for="pais">País nacimiento del usuario</label> <br>
+ <select name="pais">
+ <option>Argentina</option>
+ <option>Brasil</option>
+ <option>Chile</option>
+ <option>Uruguay</option>
+ </select>
+
+ <br>
+<button type="submit">Enviar</button>
+<button type="reset">Borrar</button>
+
+
+</body>
+</html>

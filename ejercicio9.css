@@ -1,0 +1,50 @@
+h1{
+    color:rgba(47, 168, 168, 0.918);
+}
+strong{
+    color: red;
+}
+
+#negrita2{
+    color:orange;
+}
+.destacado{
+    color:orange
+}
+#subtitulo{
+    color: blue;
+}
+a{
+    color:red;
+}
+em{
+    color: blue;
+}
+#em1{
+    color:green;
+}
+.especial{
+    color:violet;
+}
+table, th, td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    color: green;
+}
+th.especial{
+    color: orange;
+}
+#adicional{
+    color: rgba(68, 119, 20, 0.596);
+}
+#especial{
+    color: violet;
+}
+th{
+    color: red;
+
+}
+#link2{
+    color:green
+}
